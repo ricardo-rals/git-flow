@@ -2,6 +2,10 @@
 # Guia: Utilizando o Git Flow em uma Equipe
 
 Este guia descreve como configurar e utilizar o **Git Flow** em equipes, detalhando os papéis das branches e os comandos necessários.
+## O que é Git Flow?
+Git Flow é um conjunto de práticas e convenções que organizam o fluxo de trabalho com o Git, especialmente em projetos colaborativos e de desenvolvimento de software. Ele define uma estratégia padronizada para criar, integrar e lançar versões de software, com foco na manutenção de um histórico claro e organizado.
+
+Para saber mais, acesse este link [Gitflow Workflow | Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
 ---
 
@@ -29,7 +33,7 @@ Este guia descreve como configurar e utilizar o **Git Flow** em equipes, detalha
     ```
   
   - **Windows**
-    - As versões mais novas dos instaladores git já contem a biblioteca do git-flow.
+    - As versões mais novas dos instaladores git já contem a extensão do git-flow.
 
 3. Configurando repositório
     Após a instalação, inicie o **Git Flow** no seu repositório:
