@@ -53,6 +53,7 @@ Para saber mais, acesse este link [Gitflow Workflow | Atlassian](https://www.atl
 | `release`     | Branch usada para preparar uma nova versão antes de ir para produção.       | `release/`    |
 | `hotfix`      | Branch usada para corrigir problemas críticos em produção.                  | `hotfix/`     |
 | `support`     | Branch de suporte para versões legadas.                                     | `support/`    |
+| `bugfix`      | Branch usada para corrigir bugs encontrados no ambiente de desenvolvimento.	| `bugfix/`     |
 
 ---
 
@@ -98,7 +99,20 @@ Para saber mais, acesse este link [Gitflow Workflow | Atlassian](https://www.atl
   # Finalizar o hotfix
   git flow hotfix finish <nome-do-hotfix>
   ```
+
+### **Branch `bugfix`**
+- **Uso**: Resolver bugs encontrados durante o desenvolvimento (antes de criar uma release ou lançar em produção).
+- **Comandos**:
+  ```bash
+  # Criar uma nova bugfix
+  git flow bugfix start <nome-do-bugfix>
+ 
+  # Finalizar a bugfix
+  git flow bugfix finish <nome-do-bugfix>
+  ```
+
 ### **Branch `support`**
+- **Ela não tem suporte nativo no Git Flow por ser de uso muito específico.**
 - **Uso**: Manutenção de versões legadas para corrigir bugs ou implementar pequenas alterações.
 - **Comandos**:
   ```bash
